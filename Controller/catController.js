@@ -22,9 +22,5 @@ const deleteCat = (req, res) => {
         }
     });
 };
-module.exports = {
-    postCat: postCat,
-    getAllCats: getAllCats,
-    deleteCat: deleteCat    
-};
+module.exports = {postCat,getAllCats,deleteCat}
    
